@@ -27,7 +27,7 @@ for i in range(3):
 li += maior.index(max(maior))
 medimpar=sum(impar)/len(impar)
 
-print("A matriz:",mat)
-print("O maior elemento da matriz é {} em qual linha:{} e coluna:{} ".format(max(maior),li+1,coluna[li]))
+print("A matriz:", mat)
+print("O maior elemento da matriz é {} em qual linha:{} e coluna:{} ".format(max(maior), li+1, coluna[li]))
 print("A média dos números ímpares da matriz é {:0.2f}".format(medimpar))
 print("Mostre na tela todos os números primos, se houver: {}".format(primo))
